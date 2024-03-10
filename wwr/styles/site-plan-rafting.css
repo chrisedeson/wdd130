@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 body {
     font-family: var(--paragraph-font);
     max-width: 960px;
@@ -10,11 +11,8 @@ body {
     --secondary-color: #C2E7DA ;
     --accent1-color: #1A1B41;
     --accent2-color: #BAFF29;
-  
     --heading-font: '______', serif;
     --paragraph-font: Helvetica, sans-serif;
-  
-    
     --nav-link-color: #BAFF29;
     --nav-background-color: #1A1B41;
     --nav-hover-link-color: white;
