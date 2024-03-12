@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Dangrek&family=IBM+Plex+Sans:ital@0;1&family=Work+Sans:ital@0;1&display=swap');   /*font-family: 'Work Sans', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Pacifico&family=Permanent+Marker&display=swap');
+
 body {
     font-family: var(--paragraph-font);
     max-width: 960px;
@@ -6,16 +7,18 @@ body {
 }
 
 :root {
-    --primary-color: #6290C3   ;
-    --secondary-color: #C2E7DA ;
-    --accent1-color: #1A1B41;
-    --accent2-color: #BAFF29;
-    --heading-font: serif;
-    --paragraph-font: Helvetica, sans-serif;
-    --nav-link-color: #BAFF29;
-    --nav-background-color: #1A1B41;
-    --nav-hover-link-color: white;
-    --nav-hover-background-color: #6290C3;
+    --primary-color: #A24936  ;
+    --secondary-color: #3E5641 ;
+    --accent1-color: #83BCA9;
+    --accent2-color: #282B28;
+
+    --heading-font: "Permanent Marker", serif;
+    --paragraph-font: "Merriweather", serif;
+
+    --nav-link-color: #282B28;
+    --nav-background-color: #D36135;
+    --nav-hover-link-color: #83BCA9;
+    --nav-hover-background-color: #282B28;
   }
   
   h1, h2, h3, h4, h5, h6 {
@@ -33,14 +36,15 @@ body {
   }
 
   nav  {
-    list-style-type: none;
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
     display: flex;
   }
   nav a {
-    padding:1em;
-    min-width: 120px;
+    display: block;
+    color: var(--nav-link-color);
     text-decoration: none;
-    padding: 10px;
+    padding: 1rem;
   }
   nav a:link, nav a:visited {
     color: var(--nav-link-color);
