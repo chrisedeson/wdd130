@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Cambo&display=swap');
+
+:root {
+    --heading-font: "Cambo", serif;
+    --paragraph-font: "Merriweather", serif;
+
+    --primary-color: #A24936  ;
+    --secondary-color: #3E5641 ;
+    --accent1-color: #83BCA9;
+    --accent2-color: #282B28;
+
+    --nav-link-color: #282B28;
+    --nav-background-color: #D36135;
+    --nav-hover-link-color: #83BCA9;
+    --nav-hover-background-color: #282B28;
+}
+
+h2, h4 {
+    font-family: var(--heading-font);
+    color: var(--primary-color)
+}
+
+p {
+    font-family: var(--paragraph-font);
+}
+
+.sociallinks > a, nav > a {
+    text-decoration: none;
+}
+
+body {
+    max-width: 960px;
+    padding-left: 4rem;
+    text-align: justify;
+}
+
+h1 {
+    position: absolute;
+    top: 70px;
+    left: 0px;
+    margin: 0px;
+    border: 1px solid rgba(0, 0, 0, .1);
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.398);
+    color: #a53e3e;
+    width: 58.6rem;
+    height: auto;
+    text-align: center;
+}
+
+.hero {
+    position: relative;
+    height: auto;
+    padding: 0;
+}
+
+.hero article {
+    position: absolute;
+    top: 78%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(70, 105, 181, .6);
+    color: #fff;
+    text-align: justify;
+    width: 80%;
+    font-size: larger;
+    padding: 20px;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+}
+
+.hero > article > img {
+    width: 200px;
+    padding-left: 20px;
+
+}
+
+article img {
+    float: right;
+}
