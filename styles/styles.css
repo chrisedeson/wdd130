@@ -11,23 +11,27 @@
 
 nav {
     background-color: steelblue;
-    padding: 10px;
+    padding: 10px;   /* 1rem */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 nav a {
-    color: white;
     display: block;
-    padding: 10px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: white;
+    padding: 10px;  /* 1.2rem */
+    text-decoration: none;
 }
 
 h1 {
     color: steelblue;
-    padding: .5rem
+    padding: .5rem;
+    border-bottom: 1px solid steelblue;
 }
 
-main {
-    max-width: 640px;
-}
 
 main img {
     width: 150px;
@@ -42,6 +46,7 @@ img {
     border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    margin: 10px 0 7px 7px;
 }
 
 p {
@@ -60,8 +65,8 @@ aside img {
 
 aside h2 {
     position: absolute;
-    top: 578px;
-    left: 146px;
+    top: 25px;
+    left: 134px;
 }
 
 p {
@@ -84,8 +89,24 @@ footer {
     color: black;
 }
 
+header, .grid, footer {
+    max-width: 840px;
+    margin: auto;
+}
 
+.grid {
+    display: grid;
+    align-items: center;
+}
 
-/* .indent {
-    padding-left: 1rem;  // This will work if "indent" is set as another class in the element ul. in html 
-} */
+main {
+    grid-column: 2 / 3;
+    margin: 1rem;
+}
+
+aside {
+    width: 20rem;
+    position: relative;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
