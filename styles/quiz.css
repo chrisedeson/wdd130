@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+/* Reset default browser styles */
+body, h1, p, label, input, textarea, select, button {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+legend {
+    font-family: 'Bree Serif', 'Times New Roman', serif;
+    font-size: larger;
+    background-color: rgb(236, 176, 24);
+}
+
+/* Style the main content */
+main {
+    padding: 20px;
+}
+
+/* Style the form */
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+/* Style form fieldset */
+fieldset {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Style form labels */
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Style form inputs */
+input[type="text"],
+textarea,
+select,
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Style form button */
+button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    margin: 1rem auto 0;
+    width: 650px;
+    text-align: center;
+    font-size: 0.8em;
+    color: gray;
+    border-top: 1px solid gray;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+}
