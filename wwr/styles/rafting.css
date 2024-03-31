@@ -181,3 +181,146 @@ footer p {
     margin-top: 12px;
 
 }
+
+.contact-body .heading > h1 {
+    margin-left: 4.5rem;
+    padding-top: 80px;
+    margin-top: 150px;
+    height: 150px;
+    background-color: #a0aca8;
+    font-size: 2.6rem;
+}
+
+.contact-body .heading > p {
+    position: absolute;
+    top: 350px;
+    display: block;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.employee {
+    margin-top: 200px;
+}
+
+.employee1, .employee2, .employee3 {
+    display: flex;
+    justify-content: center;
+}
+
+.employee1 > .text-header, .employee2 > .text-header, .employee3 > .text-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 42px;
+}
+
+
+.employee1 > img, .employee2 > img, .employee3 > img {
+    width: 92%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.two {
+    flex-direction: row-reverse;
+}
+
+.three > img {
+    width: 85%;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    width: 960px;
+}
+
+.information {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 57px;
+    background-color: #83BCA9;
+}
+
+.iframe {
+    width: 964px;
+    height: 600px;
+}
+
+form {
+    text-align: center;
+    background-color: #a0aca8;
+}
+
+form > fieldset > h2 {
+    padding-top: 40px;
+}
+
+form > fieldset > p {
+    padding-top: 20px;
+    font-size: large;
+    color: #3E5641
+}
+
+.user-contact {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.form-item > label {
+    display: block; /* Ensure each label appears on a new line */
+    font-weight: bold;
+    text-align: left;
+}
+
+input[type="text"], input[type="email"] {
+    width: 300px;
+    height: 40px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+
+.form-item2 {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+
+legend, .feedback {
+    font-weight: bold;
+    padding: 5px;
+}
+
+textarea {
+    width: 400px;
+    height: 60x;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+
+  button {
+    margin: 1rem;
+    background-color: slateblue;
+    color: aliceblue;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: rgb(0, 7, 100);
+}
