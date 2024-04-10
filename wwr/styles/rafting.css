@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Cambo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karma:wght@300;400;500;600;700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
     --heading-font: "Cambo", serif;
@@ -479,5 +480,160 @@ textarea {
   }
 
 
+/* Homepage Styles */
+#home-title {
+    position: absolute;
+    top: 60px;
+    left: 40px;
+    margin: 0px;
+    border: 1px solid rgba(0, 0, 0, .1);
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    text-align: left;
+    font-family: 'Roboto Condensed', 'Times New Roman', Arial, Helvetica, sans-serif;
+    font-size: 5rem;
+    line-height: 5rem;
+    
+}
+
+.home img{
+    filter: brightness(80%);
+
+}
+
+.hero-paragraph {
+    position: absolute;
+    top: -100px;
+    left: -40px;
+    color: #fff;
+    text-align: left;
+    width: 80%;
+    font-size: larger;
+    padding: 20px;
+}
+
+#button {
+    background-color:#0056B3;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 15px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Roboto Condensed', 'Times New Roman', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 4px 2px;
+  }
+
+.hero .hero-home {
+    background-color: transparent;
+}
+
+.home-quote {
+    font-family: 'Karma', serif;
+    text-align: center;
+    font-weight: 400;
+    font-size: 30px;
+    color: #3E5641;
+    line-height: 40px;
+    margin: 40px 100px;
+}
+
+.trip-adverts {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 50px;
+    padding-top: 40px;
+    text-align: left;
+}
+
+.trip-adverts img {
+    width: 290px;
+    height: 200px;
+    padding-bottom: 50px;
+    border-radius: 30px;
+}
+
+.trip-adverts a {
+    font-family: 'Roboto Condensed', 'Times New Roman', serif;
+    color:#a53e3e;
+    font-size: 27px;
+    text-decoration: none;
+}
+
+.trip-adverts a:hover {
+    text-decoration: underline;
+}
+
+.trip-adverts .one {
+    background-color: blanchedalmond;
+    border-radius: 30px;
+}
+
+.trip-adverts .two {
+    background-color: #abc8e7;
+    border-radius: 30px;
+}
+
+.trip-adverts .three {
+    background-color: #b3e4c6;
+    border-radius: 30px;
+}
+
+.adventure-card {
+    border: 1px solid black;
+}
+
+.adventure-card > p, a {
+    padding: 0 20px;
+}
+
+.home-section {
+    background-color: #ddd;
+    height: 400px;
+    margin-top: 50px;
+    padding-bottom: 100px;
+}
+
+.home-section h2 {
+    text-align: left;
+    font-size: 30px;
+    color: var(--primary-color);
+    font-family: sans-serif;
+    text-decoration: underline;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    margin-left: 60px;
+}
+
+.benefit-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.benefit-section h4 {
+    font-size: 22px;
+}
+
+.benefit-section i {
+    font-size: 50px;
+    color:#3E5641;
+}
+
+.benefit-section p {
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    padding: 12px;
+}
 
 
+.home-form {
+    padding: 20px 200px;
+}
+
+.space {
+    padding-bottom: 50px;
+}
